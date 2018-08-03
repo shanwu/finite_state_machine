@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'FiniteStateMachine.example'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    baseName = 'fsm_jar'
+    version = '0.0.1'
+}
